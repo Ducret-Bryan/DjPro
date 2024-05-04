@@ -10,13 +10,14 @@
 </head>
 
 <body>
-    <?php echo 'Navbar' ?>
+    <?php require_once 'src/view/components/navbar.php' ?>
     <header>
     </header>
     <main>
         <?php echo 'Page_content' ?>
     </main>
     <?php echo 'Footer' ?>
+    <script src="./asset/js/globalScript.js"></script>
 </body>
 
 </html>

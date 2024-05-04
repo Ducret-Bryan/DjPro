@@ -19,3 +19,72 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Navbar */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(38, 38, 38, 1);
+}
+
+nav #logo {
+  margin-top: 0.438rem;
+  margin-bottom: 0.438rem;
+  height: 36px;
+}
+
+nav button img {
+  height: 36px;
+}
+
+nav button {
+  position: fixed;
+  top: 7px;
+  right: 7px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#navLink > a {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 767px) {
+  /* Navbar */
+  nav {
+    width: 100%;
+    background-color: rgb(38, 38, 38, 0.4);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Navbar */
+  .hidden {
+    display: none;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  #navLink {
+    flex-direction: column;
+    border-top: solid 0.125rem gray;
+  }
+}
