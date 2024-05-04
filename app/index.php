@@ -17,7 +17,7 @@
     <main>
         <?php echo 'Page_content' ?>
     </main>
-    <?php echo 'Footer' ?>
+    <?php require_once 'src/view/components/footer.php' ?>
     <script src="./asset/js/globalScript.js"></script>
 </body>
 
