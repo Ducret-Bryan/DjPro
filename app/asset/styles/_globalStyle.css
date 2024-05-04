@@ -65,6 +65,40 @@ header img {
   display: none;
 }
 
+/* Footer */
+footer,
+a {
+  font-size: 14px;
+  color: white;
+}
+
+footer ul {
+  background-color: rgb(38, 38, 38, 0.5);
+  padding: 0.357rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  padding: 0 0.357rem;
+  border-right: solid 0.071rem white;
+}
+footer ul li:last-child {
+  border: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer p {
+  background-color: rgb(38, 38, 38, 0.8);
+  padding: 0.357rem;
+  text-align: center;
+}
+
 @media only screen and (min-width: 767px) {
   /* Navbar */
   nav {
