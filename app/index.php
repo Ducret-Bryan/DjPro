@@ -12,6 +12,7 @@
 <body>
     <?php require_once 'src/view/components/navbar.php' ?>
     <header>
+        <img src="./asset/image/header.jpg" alt="header image" />
     </header>
     <main>
         <?php echo 'Page_content' ?>
