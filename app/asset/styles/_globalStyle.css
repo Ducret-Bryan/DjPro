@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  font-family: "Roboto";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../image/body.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main {
+  flex-grow: 2;
+}
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
