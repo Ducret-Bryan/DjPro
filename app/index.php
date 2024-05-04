@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
+require_once('src/controller/homeController.php');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./asset/styles/_reset.css">
-    <link rel="stylesheet" href="./asset/styles/_globalStyle.css">
-</head>
-
-<body>
-    <?php require_once 'src/view/components/navbar.php' ?>
-    <header>
-        <img src="./asset/image/header.jpg" alt="header image" />
-    </header>
-    <main>
-        <?php echo 'Page_content' ?>
-    </main>
-    <?php require_once 'src/view/components/footer.php' ?>
-    <script src="./asset/js/globalScript.js"></script>
-</body>
-
-</html>
+try {
+    if (isset($_GET['action']) && $_GET['action'] == '') {
+    } else {
+        homePage();
+    }
+} catch (Exception $error) {
+}
