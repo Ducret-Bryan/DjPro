@@ -7,6 +7,9 @@
     <title><?php echo $title ?></title>
     <link rel="stylesheet" href="asset/styles/_reset.css">
     <link rel="stylesheet" href="asset/styles/_globalStyle.css">
+    <?php echo '<link rel="stylesheet" href="asset/styles/' . $page . '.css">' ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <div class="selectdiv ">
 </head>
 
 <body>
@@ -15,7 +18,7 @@
         <img src="asset/image/header.jpg" alt="header image" />
     </header>
     <main>
-        <?php echo 'Page_content' ?>
+        <?php require_once 'src/view/pages/' . $page . '.php' ?>
     </main>
     <?php require_once 'src/view/components/footer.php' ?>
     <script src="asset/js/globalScript.js"></script>

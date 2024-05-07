@@ -1,0 +1,142 @@
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 1.875rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#subTitle {
+  padding-top: 0.375rem;
+  font-size: 1.125rem;
+  font-weight: medium;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  padding-top: 1.875rem;
+  font-size: 1rem;
+}
+
+.accordion {
+  margin-top: 1.875rem;
+  background-color: rgb(38, 38, 38, 0.8);
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.accordion-tabs,
+.accordion-content {
+  display: none;
+}
+.accordion-active .accordion-content {
+  display: block;
+}
+.accordion-active {
+  background-color: rgb(148, 105, 181, 0.6);
+}
+
+.accordion-item {
+  border-top: solid 1px gray;
+}
+.accordion-item:first-child {
+  border: 0;
+}
+
+.accordion-label,
+.accordion-content {
+  padding: 1.25rem;
+}
+.accordion-content {
+  min-height: 160px;
+}
+.accordion-content ul {
+  list-style: disc inside;
+}
+.accordion-content li {
+  padding-top: 0.75rem;
+}
+.accordion-content li:first-child,
+.accordion-content {
+  padding-top: 0;
+}
+
+.accordion-label {
+  cursor: pointer;
+  transition: padding 0.2s ease;
+  position: relative;
+}
+.accordion-label::after {
+  content: "\f078";
+  font: normal normal normal 17px/1 FontAwesome;
+  color: white;
+  right: 10px;
+  top: 6px;
+  height: 34px;
+  padding: 0.875rem 0 0 0.5px;
+  position: absolute;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 767px) {
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    padding-top: 1.875rem;
+    font-size: 2.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  #subTitle {
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: medium;
+    text-align: center;
+    font-style: italic;
+  }
+
+  p {
+    padding-top: 1.875rem;
+    font-size: 1.25rem;
+  }
+
+  .accordion-item {
+    border: 0;
+  }
+  .accordion-label {
+    display: none;
+  }
+  .accordion-content {
+    padding-top: 1.125rem;
+    min-height: 100px;
+  }
+  .accordion-tabs {
+    display: flex;
+    justify-content: stretch;
+  }
+  .accordion-tab {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    flex: 1;
+    border: none;
+    font: inherit;
+    color: white;
+  }
+  .accordion-tab.accordion-active {
+    background-color: rgb(148, 105, 181, 0.6);
+  }
+}
