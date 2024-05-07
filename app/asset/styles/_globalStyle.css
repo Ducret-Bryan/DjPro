@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
   font-family: "Roboto";
   color: white;
 }
@@ -8,12 +8,13 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("../image/body.jpg");
+  background-image: url("../image/body_70.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 main {
   flex-grow: 2;
+  padding: 24px;
 }
 .container {
   max-width: 1600px;
@@ -31,9 +32,7 @@ nav {
 }
 
 nav #logo {
-  margin-top: 0.438rem;
-  margin-bottom: 0.438rem;
-  height: 36px;
+  height: 50px;
 }
 
 nav button img {
@@ -100,6 +99,10 @@ footer p {
 }
 
 @media only screen and (min-width: 767px) {
+  main {
+    width: 80%;
+    margin: auto;
+  }
   /* Navbar */
   nav {
     width: 100%;
@@ -122,6 +125,10 @@ footer p {
   header img {
     display: block;
     width: 100%;
+  }
+  /* Footer */
+  footer {
+    padding-top: 30px;
   }
 }
 

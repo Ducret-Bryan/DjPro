@@ -3,6 +3,6 @@
 function homePage()
 {
     $title = 'Djs Pro - Accueil';
-    $page = '';
-    include 'src/layout.php';
+    $page = 'home';
+    include 'src/view/layout.php';
 }
