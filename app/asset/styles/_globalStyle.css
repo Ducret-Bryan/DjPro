@@ -31,7 +31,7 @@ h2 {
   padding-top: 1.875rem;
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 #subTitle {
@@ -45,6 +45,7 @@ h2 {
 p {
   padding-top: 1.875rem;
   font-size: 1rem;
+  line-height: 24px;
 }
 /* Navbar */
 nav {
@@ -129,22 +130,14 @@ footer p {
   }
   h1 {
     font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
   }
 
   h2 {
     padding-top: 1.875rem;
     font-size: 2.75rem;
-    font-weight: bold;
-    text-align: center;
   }
   #subTitle {
-    padding: 0;
     font-size: 2.5rem;
-    font-weight: medium;
-    text-align: center;
-    font-style: italic;
   }
 
   p {
