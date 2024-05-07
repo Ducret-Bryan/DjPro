@@ -6,6 +6,10 @@ window.addEventListener('load', function () {
         navLink.classList.toggle('flex');
     })
 
+    addEventListener("scroll", (event) => {
+        this.document.querySelector('nav').style.backgroundColor = (window.scrollY > 50) ? 'rgb(38, 38, 38, 1)' : 'rgb(38, 38, 38, 0.4)';
+    });
+
     /* Accordion */
     const accordionTabs = this.document.querySelectorAll('.accordion-tab');
     const accordionLabels = this.document.querySelectorAll('.accordion-label');
