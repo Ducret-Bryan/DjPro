@@ -18,7 +18,7 @@ try {
                 djsListController();
                 break;
             default:
-                header('Location: /accueil');
+                header('Location: ?action=accueil');
         }
     } else {
         header('Location: ?action=accueil');
