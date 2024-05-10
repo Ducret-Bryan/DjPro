@@ -21,6 +21,11 @@
     </main>
     <?php require_once 'src/view/components/footer.php' ?>
     <script src="asset/js/globalScript.js"></script>
+    <?php
+    foreach ($script as $nameFile) {
+        echo '<script src="asset/js/' . $nameFile . '.js"></script>';
+    }
+    ?>
 </body>
 
 </html>
