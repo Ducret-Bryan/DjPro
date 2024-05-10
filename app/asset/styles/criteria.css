@@ -3,5 +3,12 @@ section {
 }
 
 article p {
+  padding-top: 1.875rem;
   padding-left: 30px;
+}
+
+@media only screen and (min-width: 767px) {
+  article p {
+    padding-top: 1.875rem;
+  }
 }
