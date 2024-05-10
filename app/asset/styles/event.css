@@ -1,0 +1,43 @@
+section {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+article {
+  padding: 16px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+article:nth-child(odd) {
+  background-color: rgb(38, 38, 38, 0.8);
+}
+article:nth-child(even) {
+  background-color: rgb(148, 105, 181, 0.8);
+}
+
+article .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+article .date-location {
+  font-style: italic;
+}
+article .content,
+article .footer {
+  padding-top: 16px;
+}
+article .content {
+  text-align: justify;
+}
+article .footer {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2px;
+}

@@ -2,11 +2,12 @@
 require_once('src/controller/homeController.php');
 require_once('src/controller/criteriaController.php');
 require_once('src/controller/djsListController.php');
+require_once('src/controller/eventController.php');
 require_once('src/controller/contactController.php');
 
 try {
     if (isset($_GET['action']) && !$_GET['action'] == '') {
-        $action = removeAccent(strtolower($_GET['action']));
+        $action = strtolower(removeAccent($_GET['action']));
 
         switch ($action) {
             case 'accueil':
@@ -17,6 +18,9 @@ try {
                 break;
             case 'nosdjs':
                 djsListController();
+                break;
+            case 'evenement':
+                eventPage();
                 break;
             case 'contact':
                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
