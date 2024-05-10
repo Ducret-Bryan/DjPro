@@ -5,17 +5,19 @@
     Pour votre mariage, votre comité d’entreprise
     ou bien votre association
 </p>
-<p>
-    Bienvenue !
-    Vous êtes sur le site numéro 1 des DJ professionnels en Lorraine Champagne Ardennes, qui se sont regroupés pour vous apporter la meilleure des satisfactions.
-    <br /> <br />
+<section>
+    <p>
+        Bienvenue !
+        Vous êtes sur le site numéro 1 des DJ professionnels en Lorraine Champagne Ardennes, qui se sont regroupés pour vous apporter la meilleure des satisfactions.
+        <br /> <br />
 
-    IcI nous avons les DJs professionnel de la région Lorraine Champagne-Ardennes secteur par secteur. Ils vous sont proposés par Cyril gérant et animateur de DJs Pro Champagne-Ardennes anciennement Cp-sonorisation, une entreprise ayant 22 ans d’activités.
-    <br /> <br />
+        IcI nous avons les DJs professionnel de la région Lorraine Champagne-Ardennes secteur par secteur. Ils vous sont proposés par Cyril gérant et animateur de DJs Pro Champagne-Ardennes anciennement Cp-sonorisation, une entreprise ayant 22 ans d’activités.
+        <br /> <br />
 
-    En parcourant les pages de ce site vous allez apprendre comment différencier un amateur d’un professionnel, sans pour autant avoir l’obligation d’appeler l’un de nos DJ. Vous pouvez seulement après avoir lu les recommandations de Cyril vous saurez comment faire le bon choix pour votre futur événement.
+        En parcourant les pages de ce site vous allez apprendre comment différencier un amateur d’un professionnel, sans pour autant avoir l’obligation d’appeler l’un de nos DJ. Vous pouvez seulement après avoir lu les recommandations de Cyril vous saurez comment faire le bon choix pour votre futur événement.
 
-</p>
+    </p>
+</section>
 
 <h2>Les différents types de Dj</h2>
 
