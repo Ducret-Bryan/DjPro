@@ -2,6 +2,7 @@
 require_once('src/controller/homeController.php');
 require_once('src/controller/criteriaController.php');
 require_once('src/controller/djsListController.php');
+require_once('src/controller/contactController.php');
 
 try {
     if (isset($_GET['action']) && !$_GET['action'] == '') {
@@ -16,6 +17,12 @@ try {
                 break;
             case 'nosdjs':
                 djsListController();
+                break;
+            case 'contact':
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                    treatmentForm();
+                } else
+                    contactPage();
                 break;
             default:
                 header('Location: ?action=accueil');
