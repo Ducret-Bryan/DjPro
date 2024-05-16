@@ -2,6 +2,7 @@
 require_once('src/controller/homeController.php');
 require_once('src/controller/criteriaController.php');
 require_once('src/controller/djsListController.php');
+require_once('src/controller/galleryController.php');
 require_once('src/controller/eventController.php');
 require_once('src/controller/contactController.php');
 
@@ -18,6 +19,9 @@ try {
                 break;
             case 'nosdjs':
                 djsListController();
+                break;
+            case 'galerie':
+                galleryPage();
                 break;
             case 'evenement':
                 eventPage();

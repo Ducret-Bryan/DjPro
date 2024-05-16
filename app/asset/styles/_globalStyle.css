@@ -12,6 +12,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.unscrollable {
+  overflow: hidden;
+}
+
 main {
   flex-grow: 2;
   padding: 24px;
@@ -47,6 +51,7 @@ p {
   font-size: 1rem;
   line-height: 24px;
 }
+
 /* Navbar */
 nav {
   width: 100%;

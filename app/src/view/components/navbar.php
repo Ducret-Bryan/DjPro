@@ -5,13 +5,13 @@
             <img src="./asset/image/burger.svg" alt="icons burger" />
         </button>
         <div id="navLink" class="hidden">
-            <a href="?action=Accueil">Accueil</a>
-            <a href="?action=Critères">Nos critères</a>
-            <a href="?action=NosDjs">Nos Djs</a>
-            <a href="?action=Événement">Nos Evénements</a>
-            <a href="?action=Galerie">Galerie</a>
-            <a href="?action=Location">Location</a>
-            <a href="?action=Contact">Contact</a>
+            <a href="?action=accueil">Accueil</a>
+            <a href="?action=critères">Nos critères</a>
+            <a href="?action=nosDjs">Nos Djs</a>
+            <a href="?action=evenement">Nos Evénements</a>
+            <a href="?action=galerie">Galerie</a>
+            <a href="?action=kocation">Location</a>
+            <a href="?action=contact">Contact</a>
         </div>
     </div>
 </nav>
