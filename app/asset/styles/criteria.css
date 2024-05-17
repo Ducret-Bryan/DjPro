@@ -1,14 +1,61 @@
-section {
-  padding-top: 30px;
+.accordion {
+  margin-top: 1rem;
+  background-color: rgb(38, 38, 38, 0.8);
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  overflow: hidden;
 }
 
-article p {
-  padding-top: 1.875rem;
-  padding-left: 30px;
+.accordion-tabs,
+.accordion-content {
+  display: none;
+}
+.accordion-active .accordion-content {
+  display: block;
+}
+.accordion-active {
+  background-color: rgb(148, 105, 181, 0.6);
 }
 
-@media only screen and (min-width: 767px) {
-  article p {
-    padding-top: 1.875rem;
-  }
+.accordion-item {
+  border-top: solid 1px gray;
+}
+.accordion-item:first-child {
+  border: 0;
+}
+
+.accordion-label,
+.accordion-content {
+  padding: 1.25rem;
+}
+
+.accordion-content ul {
+  list-style: disc inside;
+}
+.accordion-content li {
+  padding-top: 0.75rem;
+}
+.accordion-content li:first-child,
+.accordion-content {
+  padding-top: 0;
+}
+
+.accordion-label {
+  cursor: pointer;
+  transition: padding 0.2s ease;
+  position: relative;
+}
+.accordion-label::after {
+  content: "\f078";
+  font: normal normal normal 17px/1 FontAwesome;
+  color: white;
+  right: 10px;
+  top: 6px;
+  height: 34px;
+  padding: 0.875rem 0 0 0.5px;
+  position: absolute;
+  pointer-events: none;
 }
